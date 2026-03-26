@@ -3,7 +3,7 @@ remotes::install_github("labroo2/deStructure")
 library(deStructure)
 
 output_file <- "structure_analysis/mainparams.txt"
-mainparams(maxpops = NULL, burnin = 50000, numreps = 50000, infile = "structure_output.txt",
+mainparams(maxpops = NULL, burnin = 100000, numreps = 100000, infile = "structure_output.txt",
            outfile = "my_output_file", numinds = "449", numloci = "12595",
            ploidy = 4, missing = -9, onerowperind = 0, label = 1,
            popdata = 0, popflag = 0, locdata = 0, phenotype = 0, extracols = 0,

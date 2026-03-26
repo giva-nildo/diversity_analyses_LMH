@@ -12,7 +12,7 @@ library(pophelper)
 library(tcltk)
 library(gridExtra)
 
-readQ(files = )
+
 # read some structure files with confidence intervals
 directory_path <- "C:/Users/givan/OneDrive/Área de Trabalho/Repositorios/diversity_LMH/structure_output_100000"
 sfiles1 <- list.files(path = directory_path, 
